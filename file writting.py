@@ -1,0 +1,10 @@
+# f = open("anindo2.txt", "a")
+# a = f.write("Anindo is a very good boy!!!!\n")
+# print(a)
+# f.close()
+
+f = open("anindo2.txt", "r+")
+print(f.read())
+f.write("It's a new line-5\n")
+print(f.readline())
+f.close()
