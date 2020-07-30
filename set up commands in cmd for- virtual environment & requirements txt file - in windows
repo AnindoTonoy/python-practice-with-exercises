@@ -1,0 +1,45 @@
+1. Open cmd in current directory where you want to create virtual environment.
+
+
+2. Install virtual environment.
+
+    > pip install virtualenv
+
+
+3. Create fresh virtual environment in this directory.
+
+    > virtualenv your_folder_name
+
+    Or, if you want to clone (installed site packages with python in your machine) virtual
+    environment in this directory.
+
+    > virtualenv --system-site-packages your_folder_name
+
+
+4. Activate your virtual environment.
+
+    > your_folder_name\scripts\activate
+
+    # if throws errors go to cmd admin mood and enter this command below:
+
+    > set executionpolicy remotesigned
+
+
+5. Install any package in your virtual environment.
+
+    > pip install your_desire_package-name
+
+
+6. Import requirements.txt file in your virtual environment.
+
+    > pip freeze > requirements.txt
+
+
+7. If want to install all packages from requirements.txt file in your virtual environment.
+
+    > pip install -r .\requirements.txt
+
+
+8. Deactivate your virtual environment.
+
+    > deactivate
