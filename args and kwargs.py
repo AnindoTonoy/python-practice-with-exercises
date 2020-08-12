@@ -13,7 +13,7 @@ def fun(normal, *args, **kwargs):
     for item in args:
         print(item)
 
-    print("\nNow i want to introduces some heroes:")
+    print("\nNow i want to introduce some heroes:")
 
     for key, value in kwargs.items():
         print(f"{key} is {value}")
