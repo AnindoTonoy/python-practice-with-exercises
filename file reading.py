@@ -3,7 +3,7 @@ f = open("anindo.txt", "rt")
 # content = f.read()
 # print(content)
 
-# print(f.readlines())    # read lines in a list
+print(f.readlines())    # read lines in a list
 
 # print(f.readline())
 # print(f.readline())

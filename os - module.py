@@ -20,4 +20,5 @@ import os
 # print(a)
 
 # print(os.path.exists('D://'))
-print(os.path.isdir('E://'))
+# print(os.path.isdir('E://'))
+print(os.listdir())
